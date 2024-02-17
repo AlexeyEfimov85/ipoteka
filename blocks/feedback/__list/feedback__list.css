@@ -12,11 +12,13 @@
 @media screen and (max-width: 1190px) {
     .feedback__list {
         width: 688px;
+        height: 260px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .feedback__list {
         width: 340px;
+        height: 480px;
     }
 }
