@@ -1,0 +1,16 @@
+
+.banki__logo_sber {
+    background-image: url('../../../../images/sber_logo.png')
+}
+
+@media screen and (max-width: 1190px) {
+    .banki__logo_sber {
+        background-image: url('../../../../images/sber_logo_tablet.png');
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banki__logo_sber {
+        background-image: url('../../../../images/sber_logo_mobile.png');
+    }
+}

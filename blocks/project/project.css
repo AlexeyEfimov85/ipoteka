@@ -1,0 +1,6 @@
+.project {
+    width: 273px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}

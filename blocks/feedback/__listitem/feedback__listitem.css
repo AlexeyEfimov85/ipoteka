@@ -1,0 +1,16 @@
+.feedback__listitem {
+    display: flex;
+    width: 352px;
+}
+
+@media screen and (max-width: 768px) {
+    .feedback__listitem {
+        width: 566px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .feedback__listitem {
+        width: 342px;
+    }
+}

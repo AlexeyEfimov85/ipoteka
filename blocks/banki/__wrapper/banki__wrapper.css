@@ -1,0 +1,16 @@
+.banki__wrapper {
+    width: 872px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1190px) {
+    .banki__wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banki__wrapper {
+        width: 345px;
+    }
+}

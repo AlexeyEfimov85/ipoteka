@@ -1,0 +1,20 @@
+.how__image {
+    width: 575px;
+    height: 392px;
+    background-image: url('../../../images/banner_how.png');
+}
+
+@media screen and (max-width: 1190px) {
+    .how__image {
+        width: 689px;
+        background-image: url('../../../images/banner_how_tablet.png');
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .how__image {
+        width: 343px;
+        height: 212px;
+        background-image: url('../../../images/banner_how_mobile.png');
+    }
+}

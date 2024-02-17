@@ -1,0 +1,9 @@
+.banki__row {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .banki__row {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,24 @@
+.feedback__wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+@media screen and (max-width: 1190px) {
+    .feedback__wrapper{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .feedback__wrapper {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .feedback__wrapper {
+        height: 700px;
+
+    }
+}

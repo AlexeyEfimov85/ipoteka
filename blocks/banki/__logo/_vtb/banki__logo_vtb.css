@@ -1,0 +1,15 @@
+.banki__logo_vtb {
+    background-image: url('../../../../images/vtb_logo.png')
+}
+
+@media screen and (max-width: 1190px) {
+    .banki__logo_vtb {
+        background-image: url('../../../../images/vtb_logo_tablet.png');
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banki__logo_vtb{
+        background-image: url('../../../../images/vtb_logo_mobile.png');
+    }
+}

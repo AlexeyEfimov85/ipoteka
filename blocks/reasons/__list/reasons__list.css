@@ -1,0 +1,21 @@
+.reasons__list {
+    display: flex;
+    flex-direction: column;
+    width: 575px;
+    padding: 0;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1190px) {
+    .reasons__list {
+        gap: 32px;
+        width: 688px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reasons__list {
+        flex-direction: column;
+        width: 340px;
+    }
+}

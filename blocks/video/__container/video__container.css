@@ -1,0 +1,26 @@
+.video__container {
+    background-color: #FFFFFF;
+    margin: -200px auto;
+    padding: 72px 72px 0 72px;
+    border-radius: 8px;
+
+}
+
+@media screen and (max-width: 1350px) {
+    .video__container {
+        padding: 72px 36px 0 36px;
+    }
+} 
+
+@media screen and (max-width: 1290px) {
+    .video__container {
+        padding: 72px 0 0 0;
+    }
+} 
+
+ @media screen and (max-width: 1190px) {
+    .video__container {
+        margin: 40px auto 0;
+        padding-top: 0;
+    }
+} 

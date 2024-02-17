@@ -1,0 +1,21 @@
+.feedback__text {
+    width: 298px;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 1190px) {
+    .feedback__text {
+        width: 512px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .feedback__text {
+        width: 289px;
+    }
+}

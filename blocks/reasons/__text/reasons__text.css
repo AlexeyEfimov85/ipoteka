@@ -1,0 +1,21 @@
+.reasons__text {
+    max-width: 471px;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    margin-left: 50px;
+}
+
+
+@media screen and (max-width: 1190px) {
+    .reasons__text {
+        max-width: 575px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reasons__text {
+        max-width: 250px;
+    }
+}

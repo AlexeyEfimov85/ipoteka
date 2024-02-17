@@ -1,0 +1,5 @@
+@media screen and (max-width: 1190px) {
+    .video__link_disabled {
+        display: none;
+    }
+}

@@ -1,0 +1,22 @@
+.feedback__image {
+    width: 670px;
+    height: 517px;
+    background-image: url('../../../images/feedback_image.png');
+    background-size: cover;
+}
+
+@media screen and (max-width: 1190px) {
+    .feedback__image {
+        width: 688px;
+        height: 370px;
+        background-image: url('../../../images/feedback_image_tablet.png');
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .feedback__image {
+        width: 345px;
+        height: 201px;
+        background-image: url('../../../images/feedback_image_mobile.png');
+    }
+}

@@ -1,0 +1,22 @@
+.feedback__list {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    height: 382px;
+    padding: 0;
+    gap: 12px;
+    justify-content: space-between;
+    margin: 0;
+}
+
+@media screen and (max-width: 1190px) {
+    .feedback__list {
+        width: 688px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .feedback__list {
+        width: 340px;
+    }
+}

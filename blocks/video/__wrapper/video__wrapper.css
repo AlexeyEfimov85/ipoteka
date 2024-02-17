@@ -1,0 +1,10 @@
+.video__wrapper {
+    display: flex;
+    gap: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    .video__wrapper {
+       flex-direction: column;
+    }
+}

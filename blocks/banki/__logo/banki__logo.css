@@ -1,0 +1,18 @@
+.banki__logo {
+    width: 292px;
+    height: 160px;
+}
+
+@media screen and (max-width: 1190px) {
+    .banki__logo {
+        width: 210px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banki__logo {
+        width: 344px;
+        height: 160px;
+    }
+}
