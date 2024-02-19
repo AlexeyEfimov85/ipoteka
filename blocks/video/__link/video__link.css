@@ -5,7 +5,7 @@
     position: relative;
     cursor: pointer;
 }
-.video__link::before {
+/* .video__link::before {
     content: "";
     width: 80px;
     height: 80px;
@@ -20,7 +20,7 @@
 
 .video__link:hover::before {
     background-color: #171717;
-}
+} 
 
 .video__link::after {
     content: "";
@@ -39,13 +39,13 @@
 
 .video__link:hover::after {
     background-image: url("../../../images/preview_play_hover.svg");
-}
+}*/
 
 @media screen and (max-width: 1190px) {
     .video__link{
         width: 343px;
     }
-    .video__link::before {
+/*     .video__link::before {
         content: "";
         width: 60px;
         height: 60px;
@@ -54,11 +54,11 @@
         content: "";
         width: 24px;
         height: 24px;
-    }
+    } */
 }
 
 @media screen and (max-width: 768px) {
-    .video__link::before {
+/*     .video__link::before {
         content: "";
         width: 48px;
         height: 48px;
@@ -67,5 +67,5 @@
         content: "";
         width: 16px;
         height: 16px;
-    }
+    } */
 }

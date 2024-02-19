@@ -1,9 +1,15 @@
 .video__container {
     background-color: #FFFFFF;
     margin: -200px auto;
-    padding: 72px 72px 0 72px;
+    padding: 72px 133px 0 133px;
     border-radius: 8px;
 
+}
+
+@media screen and (max-width: 1500px) {
+    .video__container {
+        padding: 72px 72px 0 72px;
+    }
 }
 
 @media screen and (max-width: 1350px) {
